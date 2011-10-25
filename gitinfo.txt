@@ -145,5 +145,15 @@ deletes all files that end with a '~'
 note: \ in front of the filename
 
 
+Ignore files
+============
+
+create a file called .gitignore in the main directory.
+list the files that should be ignored:
+
+# ignored files
+.gitignore
+.DS_Store
+
 
 
