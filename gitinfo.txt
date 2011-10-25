@@ -156,4 +156,12 @@ list the files that should be ignored:
 .DS_Store
 
 
+Create a new branch
+===================
+
+$ git branch branchname
+
+
+
+
 
