@@ -114,9 +114,13 @@ $ git remote -v
 Push
 ====
 
+$ git push
 $ git push [remote-name] [branch-name]
 
 error code 22:
+in .git/config ändern:
+statt url = https://github.com/rodo61/TestRepo1.git ->
+url = git@github.com:rodo61/TestRepo1.git
 
 
 
