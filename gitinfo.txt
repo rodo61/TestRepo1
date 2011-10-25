@@ -92,6 +92,12 @@ $ git diff --staged or
 $ git diff --cached
 
 
+Commit
+======
+$ git commit
+$ git commit "new commit"
+
+
 
 
 
