@@ -136,6 +136,13 @@ removes the file from the cache but keeps the file in the working directory
 $git rm -f filename
 removes the file from cache and deletes it in the working directory
 
+$ git rm log/\*.log
+deletes all '*.log'-files in the log directory
+note: \ in front of the filename
+
+$ git rm \*~
+deletes all files that end with a '~'
+note: \ in front of the filename
 
 
 
