@@ -123,6 +123,12 @@ statt url = https://github.com/rodo61/TestRepo1.git ->
 url = git@github.com:rodo61/TestRepo1.git
 
 
+Remove
+======
+
+$ git rm filename
+$ git rm --cached filename
+
 
 
 
