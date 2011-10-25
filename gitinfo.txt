@@ -127,7 +127,14 @@ Remove
 ======
 
 $ git rm filename
+
+If the file is already staged it can't be removed via rm ->
+
 $ git rm --cached filename
+removes the file from the cache but keeps the file in the working directory
+
+$git rm -f filename
+removes the file from cache and deletes it in the working directory
 
 
 
