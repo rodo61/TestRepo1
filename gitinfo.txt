@@ -94,8 +94,27 @@ $ git diff --cached
 
 Commit
 ======
+
+opens editor for adding a comment:
 $ git commit
-$ git commit "new commit"
+
+commits without editor:
+$ git commit -m "new commit"
+
+commits also unstaged files:
+$ git commit -a -m 'new commit'
+
+
+Show remote repository
+======================
+
+$ git remote -v
+
+
+Push
+====
+
+$ git push [remote-name] [branch-name]
 
 
 
