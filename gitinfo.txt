@@ -162,6 +162,13 @@ Create a new branch
 $ git branch branchname
 
 
+Load a branch
+=============
+
+$ git checkout branchname
+
+
+
 
 
 
