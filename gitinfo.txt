@@ -168,6 +168,15 @@ Load a branch
 $ git checkout branchname
 
 
+Graphical Interface
+===================
+
+$ gitk
+
+shows all commits of the current branch
+shows file contents and differences between versions
+
+
 
 
 
